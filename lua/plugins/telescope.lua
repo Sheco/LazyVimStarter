@@ -16,13 +16,13 @@ return {
       defaults = {
         path_display = { "truncate" },
         layout_strategy = "vertical",
-        layout_config = { prompt_position = "top" },
-        winblend = 0,
+        layout_config = {
+          preview_cutoff = 30,
+        },
       },
       pickers = {
         buffers = {
           sort_mru = true,
-          preview = false,
           mappings = {
             i = {
               ["<c-d>"] = "delete_buffer",
