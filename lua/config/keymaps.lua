@@ -7,4 +7,5 @@ vim.keymap.set("n", "<leader>ut", function()
   vim.o.relativenumber = not vim.o.relativenumber
   vim.o.number = not vim.o.number
   vim.o.signcolumn = vim.o.signcolumn == "yes" and "no" or "yes"
+  vim.o.list = not vim.o.list
 end, { desc = "Toggle line numbers and gutter" })
