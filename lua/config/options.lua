@@ -4,3 +4,4 @@
 --
 vim.opt.expandtab = false
 vim.opt.mouse = ""
+vim.g.autoformat = false
