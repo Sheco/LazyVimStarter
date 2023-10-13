@@ -9,3 +9,6 @@ vim.keymap.set("n", "<leader>ut", function()
   vim.o.signcolumn = vim.o.signcolumn == "yes" and "no" or "yes"
   vim.o.list = not vim.o.list
 end, { desc = "Toggle line numbers and gutter" })
+
+
+vim.keymap.set("n", " .", "<cmd>Telescope frecency<cr>")
