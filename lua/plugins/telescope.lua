@@ -13,11 +13,6 @@ return {
     },
     -- change some options
     opts = {
-			extensions = {
-				frecency = {
-					use_sqlite = false
-				}
-			},
       defaults = {
         path_display = { "truncate" },
         layout_strategy = "vertical",
