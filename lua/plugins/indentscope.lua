@@ -19,5 +19,8 @@ return {
 		"echasnovski/mini.pairs",
 		enabled = false
 	},
-	{ "rafamadriz/friendly-snippets", enabled = false }
+	{ "rafamadriz/friendly-snippets", enabled = false },
+  {
+    "zeek/vim-zeek", enabled = true;
+  }
 }
