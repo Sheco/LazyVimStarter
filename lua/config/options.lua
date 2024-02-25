@@ -3,5 +3,5 @@
 -- Add any additional options here
 --
 -- vim.opt.expandtab = false
-vim.opt.mouse = ""
+-- vim.opt.mouse = ""
 vim.g.autoformat = false
