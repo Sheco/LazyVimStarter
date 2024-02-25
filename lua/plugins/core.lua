@@ -12,15 +12,12 @@ return {
 		enabled = false
 	},
 	{
-		"rafamadriz/friendly-snippets",
-		enabled = false
-	},
-	{
 		"echasnovski/mini.pairs",
 		enabled = false
 	},
-	{ "rafamadriz/friendly-snippets", enabled = false },
   {
     "zeek/vim-zeek", enabled = true;
-  }
+  },
+  { "folke/flash.nvim", enabled = false },
 }
+
