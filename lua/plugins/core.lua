@@ -1,4 +1,10 @@
 return {
+	{
+		"LazyVim/LazyVim",
+		opts = {
+			colorscheme = "catppuccin",
+		}
+	},
   {
     "echasnovski/mini.indentscope",
     enabled = false,
