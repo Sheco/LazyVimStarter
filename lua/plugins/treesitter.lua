@@ -4,6 +4,7 @@
     "nvim-treesitter/nvim-treesitter",
     opts = {
       ensure_installed = {
+		"go",
         "svelte",
         "bash",
         "html",
