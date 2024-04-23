@@ -5,5 +5,6 @@ return {
 	{ "echasnovski/mini.pairs", enabled = false },
 	{ "zeek/vim-zeek", enabled = true; },
 	{ "folke/flash.nvim", enabled = false },
+	{ "windwp/nvim-ts-autotag", enabled = false },
 }
 
