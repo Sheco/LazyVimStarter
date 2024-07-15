@@ -8,3 +8,6 @@ vim.keymap.set("n", "<leader>ut", function()
   vim.o.list = not vim.o.list
 end, { desc = "Toggle line numbers and gutter" })
 
+vim.keymap.set("n", "-", function()
+        require("neo-tree.command").execute({ position="current", reveal=true })
+end, {  desc = "Explorer NeoTree (cwd)", })
